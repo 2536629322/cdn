@@ -254,3 +254,7 @@ strong.cardtitle {
 a.footer-logo {
     margin-left: -23px;
 }
+/*书签页顶部菜单圆角*/
+.sites-tabs-container {
+    border-radius: .25rem;
+}
