@@ -1,0 +1,268 @@
+/*修复和风天气*/
+#footer-tools [data-v-db6ccf64][data-v-41ba7e2c]{top:unset!important;bottom:0!important;right:44px!important}
+/*顶部边框透明度调整*/
+body.io-grey-mode .big-header-banner.header-bg .page-header {
+    background: rgb(255 255 255 / 90%) !important;
+}
+/*顶部大搜索上下尺寸调低*/
+.header-big {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+/*详情页文字大小*/
+.site-content p{
+    font-size: 14px;
+}  
+/*详情页内容颜色*/
+
+
+/*弹出微信公众号样式*/
+body {
+	margin: 0;
+	padding: 0;
+}
+.weixin{ display:block;text-align:center; position:relative;}
+.weixin img{ display:none;}
+.weixin:hover img{ position:absolute; left:50%; top:0; margin-left:-115px; padding-top:30px; display:block;}
+/*标签去掉后面的符号*/
+.external:after {
+}
+.external:after {
+    content: "";
+    font-family: "";
+    font-size: 75%;
+}
+*, ::after, ::before {
+box-sizing: border-box;    
+}
+
+.external {
+    padding-right: 0px;
+}
+
+/*两个角标*/
+.new {
+     display: inline-block;
+     transform: translate(3px, -11px);
+     font-size: .75rem;
+     letter-spacing: 0.05em;
+     background: linear-gradient(135deg, #E80505 10%, #FDD819 100%);
+     color: #ffffff;
+     border-radius: 4px 4px 4px 0;
+     padding: .15rem .275rem;
+     line-height: 1;
+     font-weight: bold;
+     height: 20px;
+     line-height: 15px !important;
+     /* opacity: 0.85; */
+}
+/*搜索按钮调整*/
+#search button {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background: #f1404b;
+    border: 0;
+    width: 60px;
+    height: 100%;
+    margin: 0px 0pt 0;
+    line-height: 36px;
+    border-radius: 8px;
+}
+/*搜索框调整*/
+#search-text {
+    border-radius: 10px;
+    background-color: #ededed;
+}
+/*tab栏圆角优化*/
+                .slider-menu-father{
+                    border-radius: 7px;
+                }
+                .slider_menu[sliderTab]{
+                    border-radius: 7px; 
+                }
+                .slider_menu[sliderTab] .anchor {
+                    border-radius: 7px;
+                }
+                .slider_menu[sliderTab] >.menu {
+                    border-radius: 7px;
+                }
+/*tab栏背景色调整*/
+.slider_menu[sliderTab] {
+    background: rgba(0,0,0,0.03);
+}
+/*首页编辑按钮调整*/
+.customize-menu .btn-edit {
+    border-radius: 7px;
+      color: #ffffff!important;
+}
+/*卡片圆角调整*/
+.card {
+border-radius: 7px;
+}
+/*背景颜色代码*/
+ body.io-grey-mode{
+                    background-color: rgba(0,0,0,0.025)!important;
+                }
+/*侧边栏展开图标修复*/
+.sidebar-item {
+    position: relative;
+    display: flow-root;
+}
+/*侧边栏父菜单优化*/
+.sidebar-menu ul:first-child > li> a {
+    padding: 12px 12px;
+    margin: 1.5px 8px;
+}
+/*侧边栏单行三块*/
+a.smooth.amh{
+    margin-left: 0px!important;
+    display: block;
+    position: relative;
+    padding: 0px 0px;
+    white-space: break-spaces;
+    height:35px;
+    line-height: 33px;
+    text-decoration: none;
+    overflow: visible;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+a.amh{
+    margin-left: 0px!important;
+    display: block;
+    position: relative;
+    padding: 0px 0px;
+    white-space: break-spaces;
+    height:35px;
+    line-height: 33px;
+    text-decoration: none;
+    overflow: visible;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.io-black-mode a.smooth.amh,.io-black-mode .amh {
+  background-color:rgba(0,0,0,.1);
+}
+.sidebar-menu-inner a {
+    margin: unset;
+    font-size: 13px;
+}
+li.limh {
+    text-align: center;
+    border-radius: 2px;
+    padding: 4px 3px;
+    width: 33.3%;
+    float: left;
+}
+ul.ulmh {
+    padding: 0px 3px 0px;
+}
+span.spanmh {
+    margin-left: 2px!important;
+    color:#888888;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15px;
+}
+span.spanmh1 {
+    margin-left: 2px!important;
+    color:#888888;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15px;
+}
+
+ul.ulmh::after{
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+/*菜单颜色*/
+ .io-grey-mode .sidebar-nav , .io-grey-mode .sidebar-menu-inner a {
+    color:#0c0d0f!important;
+    font-size: 14px;
+} 
+.sidebar-nav , .sidebar-menu-inner a {
+    font-size: 14px;
+
+} 
+/*移动端logo左移*/
+ .navbar-brand img {
+    max-height: 30px;
+    margin-left: -20px;
+}
+/*详情页图片圆角*/
+.site-content img{
+    border-radius: 5px;
+}
+/*大搜索搜索框优化*/
+.header-big #search-text {
+    border-radius: 9px;
+}
+.search-type input:checked+label, .search-type input:hover+label {
+    background-color: #ededed;
+}
+/*公告框优化*/
+.header-big:not(.no-bg) #bulletin_box .card-body {
+    border-radius: 9px;
+}
+/*顶部mini菜单宽带减少*/
+.header-mini-btn {
+    width: 0px;
+}
+/*红色按钮*/
+.btn-dog{
+    color: #fff!important;
+    background: #f1404b;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    transition: .3s;
+}
+/*网址块标题变细*/
+strong.cardtitle {
+    font-weight: 540;
+    font-size: 14px;
+}
+/*小圆点*/
+.hot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff6666;
+    margin: -5px 0px 1px 2px;
+    position: absolute;
+    top: 19px;
+}
+.new {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #409EFF;
+    margin: -5px 0px 1px 2px;
+    position: absolute;
+    top: 19px;
+}
+/*底部logo左侧一点*/
+a.footer-logo {
+    margin-left: -23px;
+}
+/*书签页顶部菜单圆角*/
+.sites-tabs-container {
+    border-radius: .25rem;
+}
+/*底部登录框夜间模式适配*/
+.io-black-mode .login-tips {
+    background: #2c2e2f;
+    color: rgba(255,255,255,0.8);
+}
+.io-black-mode .login-tips .go-icon {
+    color: rgba(255,255,255,0.8);
+}
