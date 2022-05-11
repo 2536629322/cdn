@@ -258,3 +258,11 @@ a.footer-logo {
 .sites-tabs-container {
     border-radius: .25rem;
 }
+/*底部登录框夜间模式适配*/
+.io-black-mode .login-tips {
+    background: #2c2e2f;
+    color: rgba(255,255,255,0.6);
+}
+.io-black-mode .login-tips .go-icon {
+    color: rgba(255,255,255,0.6);
+}
