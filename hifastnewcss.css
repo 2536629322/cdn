@@ -298,6 +298,10 @@ a.footer-logo {
     height: 36px;
     margin-left: -9px;
 }
+.url-card.wechat a.card:after {
+    font-size: 56px;
+}
+
 /*广告*/
 badge.c-blue-2 {
     color: #CCCCCC;
@@ -317,3 +321,4 @@ badge.c-blue-2 {
 badge {
     transform: translate(-33px,-27px) scale(0.85);
 }
+
