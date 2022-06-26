@@ -317,10 +317,10 @@ badge.c-blue-2 {
     display: inline-block;
     vertical-align: 0.1em;
 }
-
 badge {
     transform: translate(-33px,-27px) scale(0.85);
 }
+/*更多按钮美化*/
 a.btn-move.tab-move.text-xs.ml-2 {
     color: #fff;
     background: #f1404b;
@@ -341,6 +341,7 @@ a.btn-move.text-xs {
     border-radius: 7px;
     white-space: nowrap;
 }
+/*左上角角标*/
 .jiaobiao_red {
     position: absolute;
     top: 11px;
@@ -354,4 +355,8 @@ a.btn-move.text-xs {
     color: #fff;
     background-color: #f1404b;
     font-size: 13px;
+}
+/*左侧滚动条去除*/
+.sidebar-menu.flex-fill::-webkit-scrollbar {
+    display: none;
 }
