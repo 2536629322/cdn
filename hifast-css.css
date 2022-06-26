@@ -343,11 +343,11 @@ a.btn-move.text-xs {
 }
 /*左上角角标*/
 .jiaobiao_red {
-    position: absolute;
-    top: 11px;
-    right: 72px;
+   position: absolute;
+    top: 6px;
+    right: 64px;
     z-index: 1;
-    width: 211px;
+    width: 240px;
     height: 20px;
     line-height: 19px;
     -webkit-transform: rotate(-45deg)!important;
