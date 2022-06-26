@@ -341,3 +341,17 @@ a.btn-move.text-xs {
     border-radius: 7px;
     white-space: nowrap;
 }
+.jiaobiao_red {
+    position: absolute;
+    top: 11px;
+    right: 72px;
+    z-index: 1;
+    width: 211px;
+    height: 20px;
+    line-height: 19px;
+    -webkit-transform: rotate(-45deg)!important;
+    text-align: center;
+    color: #fff;
+    background-color: #f1404b;
+    font-size: 13px;
+}
