@@ -332,7 +332,7 @@ a.btn-move.tab-move.text-xs.ml-2 {
     white-space: nowrap;
 }
 a.btn-move.text-xs {
-    color: #fff;
+    color: #fff!important;
     background: #f1404b;
     padding: 0px 10px;
     line-height: 24px!important;
