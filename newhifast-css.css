@@ -322,7 +322,7 @@ badge {
 }
 /*更多按钮美化*/
 a.btn-move.tab-move.text-xs.ml-2 {
-    color: #fff;
+    color: #fff!important;
     background: #f1404b;
     padding: 0px 10px;
     line-height: 24px!important;
@@ -359,4 +359,8 @@ a.btn-move.text-xs {
 /*左侧滚动条去除*/
 .sidebar-menu.flex-fill::-webkit-scrollbar {
     display: none;
+}
+/*博客页面顶图美化*/
+.media-title-bg:before {
+background-image:linear-gradient(to top,rgba(0,0,0,.25) 20%,transparent 80%)!important
 }
